@@ -1,4 +1,4 @@
-/* RESET */
+/* ================= GLOBAL ================= */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   color: white;
 }
 
-/* NAVBAR */
+/* ================= NAVBAR ================= */
 .navbar {
   position: fixed;
   width: 100%;
@@ -73,7 +73,7 @@ body {
   cursor: pointer;
 }
 
-/* HERO */
+/* ================= HERO ================= */
 .hero {
   height: 100vh;
   display: flex;
@@ -168,7 +168,7 @@ body {
   align-items: center;
 }
 
-/* CIRCLE */
+/* ================= CIRCLE ================= */
 .circle {
   width: 350px;
   height: 350px;
@@ -209,7 +209,7 @@ body {
   }
 } 
 
-/* ABOUT SECTION */
+/* ================= ABOUT ================= */
 .about {
   padding: 100px 60px;
   background: #000;
@@ -314,7 +314,7 @@ body {
   }
 } 
 
-/* SKILLS SECTION */ 
+/* ================= SKILLSL ================= */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -395,7 +395,7 @@ body {
   }
 } 
 
-/* PROJECT SECTION */  
+/* ================= PROJECTS ================= */
 body {
   margin: 0;
   font-family: Arial;
@@ -492,7 +492,7 @@ input:checked + .card {
   border-color: #22c55e;
 } 
 
-/* CONTACT SECTION */  
+/* ================= CONTACT ================= */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
