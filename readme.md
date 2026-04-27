@@ -23,7 +23,8 @@ A modern, responsive **personal portfolio website** built using **HTML & CSS**, 
 
 ## 🛠️ Tech Stack
 
-- **HTML5**
+- **HTML5** 
+- **CSS3**
 - **Taliwind CSS**
 - Google Fonts (Poppins)
 
