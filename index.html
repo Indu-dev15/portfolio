@@ -37,7 +37,7 @@
 </header>
 
 <!-- HERO -->
-<section id="home" class="hero">
+<section id="home" id="projects" class="hero">
 
   <div class="hero-left">
 
@@ -53,8 +53,8 @@
     </p>
 
     <div class="buttons">
-      <button class="btn primary">View Projects</button>
-      <button class="btn outline">Contact Me</button>
+      <a href="#projects" class="btn primary">View Projects</a>
+      <a href="#contact" class="btn outline">Contact Me</a>
     </div>
 
   </div>
@@ -175,7 +175,57 @@
 
     </div>
   </div>
-</section> 
+</section>  
+
+<!-- PROJECT SECTION --> 
+ <section id="projects">
+  <div class="container">
+
+    <p class="title-small">PROJECTS</p>
+    <h2 class="title-main">Selected work</h2>
+    <div class="underline"></div>
+
+    <div class="grid">
+
+      <!-- Card 1 -->
+      <input type="radio" name="project" id="p1" hidden>
+      <label for="p1" class="card">
+        <span class="tag">Web</span>
+        <h3>Aerovan Travel Website</h3>
+        <p>A sleek, responsive travel booking website with smooth scrolling and immersive UI.</p>
+        <div class="buttons">
+          <a href="https://indu-dev15.github.io/aerovan-website/" target="_blank" class="btn">Live</a> 
+          <a href="https://github.com/Indu-dev15/aerovan-website.git" target="_blank" class="btn-outline">Code</a>
+        </div>
+      </label>
+
+      <!-- Card 2 (default active) -->
+      <input type="radio" name="project" id="p2" hidden>
+      <label for="p2" class="card">
+        <span class="tag">AI / ML</span>
+        <h3>ML Handwritten Digit Classifier</h3>
+        <p>A neural network built with Python that recognizes handwritten digits with high accuracy.</p>
+        <div class="buttons">
+          <button class="btn">Live</button>
+          <button class="btn-outline">Code</button>
+        </div>
+      </label>
+
+      <!-- Card 3 -->
+      <input type="radio" name="project" id="p3" hidden>
+      <label for="p3" class="card">
+        <span class="tag">Web App</span>
+        <h3>Personal Task Tracker</h3>
+        <p>A minimal task manager with local storage and clean UI.</p>
+        <div class="buttons">
+          <button class="btn">Live</button>
+          <button class="btn-outline">Code</button>
+        </div>
+      </label>
+
+    </div>
+  </div>
+</section>
 
 </body>
 </html>
